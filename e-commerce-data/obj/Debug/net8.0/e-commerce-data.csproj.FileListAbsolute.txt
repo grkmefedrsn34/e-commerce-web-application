@@ -1,0 +1,17 @@
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-data.deps.json
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-data.runtimeconfig.json
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-data.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-data.pdb
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-core.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\bin\Debug\net8.0\e-commerce-core.pdb
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.csproj.AssemblyReference.cache
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.AssemblyInfoInputs.cache
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.AssemblyInfo.cs
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.csproj.CoreCompileInputs.cache
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commer.5D3D5709.Up2Date
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\refint\e-commerce-data.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.pdb
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\e-commerce-data.genruntimeconfig.cache
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\e-commerce-data\obj\Debug\net8.0\ref\e-commerce-data.dll
