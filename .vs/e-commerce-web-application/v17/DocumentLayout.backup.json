@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DC25E71-AE47-48C0-856E-9AEA41AA092B}|e-commerce-WEB-UI\\e-commerce-web-application.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\e-commerce-web-ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DC25E71-AE47-48C0-856E-9AEA41AA092B}|e-commerce-WEB-UI\\e-commerce-web-application.csproj|solutionrelative:e-commerce-web-ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC25E71-AE47-48C0-856E-9AEA41AA092B}|e-commerce-WEB-UI\\e-commerce-web-application.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\e-commerce-web-ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC25E71-AE47-48C0-856E-9AEA41AA092B}|e-commerce-WEB-UI\\e-commerce-web-application.csproj|solutionrelative:e-commerce-web-ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D93F574A-AED0-4B06-9D30-AA975E244011}|e-commerce-data\\e-commerce-data.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\e-commerce-data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D93F574A-AED0-4B06-9D30-AA975E244011}|e-commerce-data\\e-commerce-data.csproj|solutionrelative:e-commerce-data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +22,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-WEB-UI\\Program.cs",
+              "RelativeDocumentMoniker": "e-commerce-WEB-UI\\Program.cs",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-WEB-UI\\Program.cs",
+              "RelativeToolTip": "e-commerce-WEB-UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:17:39.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-WEB-UI\\appsettings.json",
+              "RelativeDocumentMoniker": "e-commerce-WEB-UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-WEB-UI\\appsettings.json",
+              "RelativeToolTip": "e-commerce-WEB-UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-04T16:11:21.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-data\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "e-commerce-data\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-data\\DatabaseContext.cs*",
-              "RelativeToolTip": "e-commerce-data\\DatabaseContext.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAsAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\e-commerce-data\\DatabaseContext.cs",
+              "RelativeToolTip": "e-commerce-data\\DatabaseContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA6wC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T14:14:36.409Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

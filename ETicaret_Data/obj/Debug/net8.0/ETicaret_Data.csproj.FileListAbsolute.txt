@@ -1,0 +1,17 @@
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Data.deps.json
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Data.runtimeconfig.json
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Data.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Data.pdb
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Core.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\bin\Debug\net8.0\ETicaret_Core.pdb
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.csproj.AssemblyReference.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.AssemblyInfoInputs.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.AssemblyInfo.cs
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.csproj.CoreCompileInputs.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret.6F6990E8.Up2Date
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\refint\ETicaret_Data.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.pdb
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ETicaret_Data.genruntimeconfig.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Data\obj\Debug\net8.0\ref\ETicaret_Data.dll

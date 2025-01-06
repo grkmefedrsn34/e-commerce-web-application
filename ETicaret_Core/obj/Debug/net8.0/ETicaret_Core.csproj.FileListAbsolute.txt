@@ -1,0 +1,14 @@
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\bin\Debug\net8.0\ETicaret_Core.deps.json
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\bin\Debug\net8.0\ETicaret_Core.runtimeconfig.json
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\bin\Debug\net8.0\ETicaret_Core.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\bin\Debug\net8.0\ETicaret_Core.pdb
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.csproj.AssemblyReference.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.AssemblyInfoInputs.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.AssemblyInfo.cs
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.csproj.CoreCompileInputs.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\refint\ETicaret_Core.dll
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.pdb
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.genruntimeconfig.cache
+C:\Users\dersi\OneDrive\Masaüstü\ETicaret_Core\obj\Debug\net8.0\ref\ETicaret_Core.dll
