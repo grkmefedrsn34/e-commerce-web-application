@@ -17,39 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ETicaretWebApplication
 build_property.RootNamespace = ETicaretWebApplication
-build_property.ProjectDir = C:\Users\dersi\OneDrive\Masaüstü\ETicaretWebApplication\
+build_property.ProjectDir = C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dersi\OneDrive\Masaüstü\ETicaretWebApplication
+build_property.MSBuildProjectDirectory = C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/Home/Index.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_Content.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Db250ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_Solmenü.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Tb2xtZW7DvC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_ÜstBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF/DnHN0QmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/Home/Privacy.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/Shared/Error.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/_ViewImports.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/_ViewStart.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dersi/OneDrive/Masaüstü/ETicaretWebApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-tbyts2iv00
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2mjrgkys8d

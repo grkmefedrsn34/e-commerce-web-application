@@ -4740,11 +4740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Core\\ETicaret_Core.csproj",
+      "projectUniqueName": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Core\\ETicaret_Core.csproj",
       "projectName": "ETicaret_Core",
-      "projectPath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Core\\ETicaret_Core.csproj",
+      "projectPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Core\\ETicaret_Core.csproj",
       "packagesPath": "C:\\Users\\dersi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Core\\obj\\",
+      "outputPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

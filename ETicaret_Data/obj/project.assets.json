@@ -4760,11 +4760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Data\\ETicaret_Data.csproj",
+      "projectUniqueName": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Data\\ETicaret_Data.csproj",
       "projectName": "ETicaret_Data",
-      "projectPath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Data\\ETicaret_Data.csproj",
+      "projectPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Data\\ETicaret_Data.csproj",
       "packagesPath": "C:\\Users\\dersi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Data\\obj\\",
+      "outputPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4786,8 +4786,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Core\\ETicaret_Core.csproj": {
-              "projectPath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Core\\ETicaret_Core.csproj"
+            "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Core\\ETicaret_Core.csproj": {
+              "projectPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Core\\ETicaret_Core.csproj"
             }
           }
         }

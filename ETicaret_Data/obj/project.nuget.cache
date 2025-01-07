@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "73mXDGKgdWk=",
+  "dgSpecHash": "f8/46hN8AmM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dersi\\OneDrive\\Masaüstü\\ETicaret_Data\\ETicaret_Data.csproj",
+  "projectFilePath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaret_Data\\ETicaret_Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dersi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
