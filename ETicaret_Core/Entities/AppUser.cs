@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,9 @@ namespace ETicaret_Core.Entities
     public class AppUser : IEntitiy
     {
         public int ID { get; set; }
+        [Display(Name ="Adı")]
         public string Name { get; set; }
+       
         public string Surname { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }

@@ -1,4 +1,5 @@
 using ETicaret_Data;
+using ETicaret_Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-     name: "admin",
+     name: "Admin",
      pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}"
 );
 

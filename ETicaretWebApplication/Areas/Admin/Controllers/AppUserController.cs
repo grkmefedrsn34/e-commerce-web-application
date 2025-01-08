@@ -9,60 +9,77 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
     public class AppUserController : Controller
     {
         private readonly ETicaret_Context _context;
-        
-        public AppUserController(ETicaret_Context _context)
+
+        public AppUserController(ETicaret_Context context)
         {
-            _context = _context;
+            _context = context;
         }
 
-        //GET:Admin/Appuser
+        // GET: Admin/AppUser
         public async Task<IActionResult> Index()
         {
             return View(await _context.AppUsers.ToListAsync());
         }
 
-        // GET : Admin/AppUsers/Detalis/5
-
+        // GET: Admin/AppUser/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            var appuser = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
-            if (appuser == null)
+
+            var appUser = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
+            if (appUser == null)
             {
                 return NotFound();
             }
-            return View(appuser);
+
+            return View(appUser);
         }
-        // GET : Admin/AppUsers/Create
-        public IActionResult Create() 
+
+        // GET: Admin/AppUser/Create
+        public IActionResult Create()
         {
-            return View();  
+            return View();
         }
 
-        //POST : Admin/AppUsers/Create
-
+        // POST: Admin/AppUser/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        
-        public async Task<IActionResult> Create(AppUser aPPuuser)
+        public async Task<IActionResult> Create(AppUser appUser)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                _context.Add(aPPuuser);
+                _context.Add(appUser);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(aPPuuser);
+            return View(appUser);
         }
 
-        //POST : Admin/AppUsers/Edit
-
-        public async Task<IActionResult> Edit(int id,AppUser aPPuuser) 
+        // GET: Admin/AppUser/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
-            if (id != aPPuuser.ID)
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var appUser = await _context.AppUsers.FindAsync(id);
+            if (appUser == null)
+            {
+                return NotFound();
+            }
+            return View(appUser);
+        }
+
+        // POST: Admin/AppUser/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, AppUser appUser)
+        {
+            if (id != appUser.ID)
             {
                 return NotFound();
             }
@@ -71,12 +88,12 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(aPPuuser);
+                    _context.Update(appUser);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AppUserExists(aPPuuser.ID))
+                    if (!AppUserExists(appUser.ID))
                     {
                         return NotFound();
                     }
@@ -87,42 +104,40 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(aPPuuser);
+            return View(appUser);
         }
 
+        // GET: Admin/AppUser/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var appUsers = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
-            if (appUsers == null)
+            var appUser = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
+            if (appUser == null)
             {
                 return NotFound();
             }
-            return View(appUsers);
+
+            return View(appUser);
         }
+
+        // POST: Admin/AppUser/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        
-        public async Task<IActionResult> DeleteConfirmend(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if(id == null)
+            var appUser = await _context.AppUsers.FindAsync(id);
+            if (appUser != null)
             {
-                return NotFound();
+                _context.AppUsers.Remove(appUser);
+                await _context.SaveChangesAsync();
             }
-
-            var AppUsers = await _context.AppUsers.FindAsync(id);
-            if (AppUsers == null) {
-                _context.AppUsers.Remove(AppUsers);
-            }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        
+
         private bool AppUserExists(int id)
         {
             return _context.AppUsers.Any(e => e.ID == id);

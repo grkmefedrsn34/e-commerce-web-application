@@ -26,3 +26,4 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.pdb
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.genruntimeconfig.cache
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core\obj\Debug\net8.0\ref\ETicaret_Core.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core\obj\Debug\net8.0\ETicaret_Core.sourcelink.json

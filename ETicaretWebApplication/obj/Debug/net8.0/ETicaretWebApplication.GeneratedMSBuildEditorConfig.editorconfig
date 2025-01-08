@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Deatails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcRGVhdGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/AppUsers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

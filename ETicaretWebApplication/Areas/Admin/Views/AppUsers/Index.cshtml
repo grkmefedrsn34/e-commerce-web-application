@@ -1,4 +1,4 @@
-﻿@using System.Collections
+﻿@using System.Collections.Generic
 @model IEnumerable<ETicaret_Core.Entities.AppUser>
 
 @{
@@ -6,78 +6,38 @@
 }
 
 <p>
-    <a asp-action="Create" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i>Yeni Ekle</a>
+    <a asp-action="Create" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i> Yeni Ekle</a>
 </p>
 <table class="table table-hover table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(m => m.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.Surname)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.IsActive)
-            </th>
-             <th>
-                @Html.DisplayNameFor(m => m.IsActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.IsAdmin)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(m => m.UserGuid)
-            </th>
+            <th>@Html.DisplayNameFor(m => m.Name)</th>
+            <th>@Html.DisplayNameFor(m => m.Surname)</th>
+            <th>@Html.DisplayNameFor(m => m.Email)</th>
+            <th>@Html.DisplayNameFor(m => m.Phone)</th>
+            <th>@Html.DisplayNameFor(m => m.IsActive)</th>
+            <th>@Html.DisplayNameFor(m => m.IsAdmin)</th>
+            <th>@Html.DisplayNameFor(m => m.CreatedDate)</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item  in Model)
+        @foreach (var item in Model)
         {
             <tr>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.Surname)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItemm => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.Phone)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.IsActive)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.IsActive)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.IsAdmin)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.CreatedDate)
-                </td>
-                <td>
-                    @Html.DisplayNameFor(modelItem => item.UserGuid)
-                </td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Surname)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
+                <td>@Html.DisplayFor(modelItem => item.IsAdmin)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-danger btn-sm">Düzenle</a>
                     <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info">Detay</a>
                     <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-warning">Sil</a>
                 </td>
             </tr>
-        }       
+        }
     </tbody>
 </table>
