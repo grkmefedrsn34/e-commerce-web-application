@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
 using ETicaret_Data;
@@ -6,22 +11,22 @@ using ETicaret_Data;
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class AppUserController : Controller
+    public class AppUsersController : Controller
     {
         private readonly ETicaret_Context _context;
 
-        public AppUserController(ETicaret_Context context)
+        public AppUsersController(ETicaret_Context context)
         {
             _context = context;
         }
 
-        // GET: Admin/AppUser
+        // GET: Admin/AppUsers
         public async Task<IActionResult> Index()
         {
             return View(await _context.AppUsers.ToListAsync());
         }
 
-        // GET: Admin/AppUser/Details/5
+        // GET: Admin/AppUsers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -29,7 +34,8 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var appUser = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
+            var appUser = await _context.AppUsers
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (appUser == null)
             {
                 return NotFound();
@@ -38,13 +44,15 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             return View(appUser);
         }
 
-        // GET: Admin/AppUser/Create
+        // GET: Admin/AppUsers/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/AppUser/Create
+        // POST: Admin/AppUsers/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AppUser appUser)
@@ -58,7 +66,7 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             return View(appUser);
         }
 
-        // GET: Admin/AppUser/Edit/5
+        // GET: Admin/AppUsers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -74,10 +82,12 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             return View(appUser);
         }
 
-        // POST: Admin/AppUser/Edit/5
+        // POST: Admin/AppUsers/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, AppUser appUser)
+        public async Task<IActionResult> Edit(int id,AppUser appUser)
         {
             if (id != appUser.ID)
             {
@@ -107,7 +117,7 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             return View(appUser);
         }
 
-        // GET: Admin/AppUser/Delete/5
+        // GET: Admin/AppUsers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -115,7 +125,8 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var appUser = await _context.AppUsers.FirstOrDefaultAsync(m => m.ID == id);
+            var appUser = await _context.AppUsers
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (appUser == null)
             {
                 return NotFound();
@@ -124,7 +135,7 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             return View(appUser);
         }
 
-        // POST: Admin/AppUser/Delete/5
+        // POST: Admin/AppUsers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -133,8 +144,9 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             if (appUser != null)
             {
                 _context.AppUsers.Remove(appUser);
-                await _context.SaveChangesAsync();
             }
+
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

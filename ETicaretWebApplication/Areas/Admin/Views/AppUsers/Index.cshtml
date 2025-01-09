@@ -1,43 +1,75 @@
-﻿@using System.Collections.Generic
-@model IEnumerable<ETicaret_Core.Entities.AppUser>
+﻿@model IEnumerable<ETicaret_Core.Entities.AppUser>
 
 @{
-    ViewData["Title"] = "Kullanıcı Listesi";
+    ViewData["Title"] = "Kullanıcı Yönetimi";
 }
 
 <p>
-    <a asp-action="Create" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i> Yeni Ekle</a>
+    <a asp-action="Create" class="btn btn-outline-primary mt-3">Kullanıcı Ekle</a>
 </p>
-<table class="table table-hover table-striped">
+<table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(m => m.Name)</th>
-            <th>@Html.DisplayNameFor(m => m.Surname)</th>
-            <th>@Html.DisplayNameFor(m => m.Email)</th>
-            <th>@Html.DisplayNameFor(m => m.Phone)</th>
-            <th>@Html.DisplayNameFor(m => m.IsActive)</th>
-            <th>@Html.DisplayNameFor(m => m.IsAdmin)</th>
-            <th>@Html.DisplayNameFor(m => m.CreatedDate)</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAdmin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.DisplayFor(modelItem => item.Surname)</td>
-                <td>@Html.DisplayFor(modelItem => item.Email)</td>
-                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
-                <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
-                <td>@Html.DisplayFor(modelItem => item.IsAdmin)</td>
-                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-danger btn-sm">Düzenle</a>
-                    <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info">Detay</a>
-                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-warning">Sil</a>
-                </td>
-            </tr>
-        }
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAdmin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-warning" style="color:white">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info" style="color:white">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+}
     </tbody>
 </table>
