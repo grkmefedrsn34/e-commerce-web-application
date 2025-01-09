@@ -1,14 +1,12 @@
 ﻿@model ETicaret_Core.Entities.AppUser
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Kullanıcı Sil";
 }
 
-<h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
+<h3>Kullanıcı Silinilecek ! Onaylıyormusunuz ?</h3>
 <div>
-    <h4>AppUser</h4>
+    
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -75,7 +73,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-outline-danger mt-2">GeriDön</a>
     </form>
 </div>

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
 using ETicaret_Data;
+using ETicaretWebApplication.Ultis;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
@@ -51,10 +52,11 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Brand brand)
+        public async Task<IActionResult> Create(Brand brand , IFormFile? Logo)
         {
             if (ModelState.IsValid)
             {
+                brand.Logo = await File_Helper.FileLoaderASYNC(Logo);
                 _context.Add(brand);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -83,7 +85,7 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Brand brand)
+        public async Task<IActionResult> Edit(int id,Brand brand,IFormFile? Logo,bool cbResimSil = false)
         {
             if (id != brand.ID)
             {
@@ -94,6 +96,12 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             {
                 try
                 {
+                    if(cbResimSil)
+                    {
+                        brand.Logo = string.Empty; 
+                    }
+                    if(Logo is not null) 
+                        brand.Logo = await File_Helper.FileLoaderASYNC(Logo);
                     _context.Update(brand);
                     await _context.SaveChangesAsync();
                 }
@@ -139,6 +147,10 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             var brand = await _context.Brands.FindAsync(id);
             if (brand != null)
             {
+                if (!string.IsNullOrEmpty(brand.Logo))
+                {
+                    File_Helper.FileRemove(brand.Logo);
+                }
                 _context.Brands.Remove(brand);
             }
 

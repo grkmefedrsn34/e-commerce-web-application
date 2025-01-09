@@ -24,6 +24,7 @@ namespace ETicaret_Core.Entities
         public bool IsActive { get; set; }
         [Display(Name = "Admin?")]
         public bool IsAdmin { get; set; }
+        [Display(Name = "Kayıt Tarihi"),ScaffoldColumn(false)]
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public Guid? UserGuid { get; set; } = Guid.NewGuid();
     }
