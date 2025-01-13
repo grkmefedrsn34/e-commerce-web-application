@@ -98,7 +98,7 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Product product,IFormFile Image)
+        public async Task<IActionResult> Edit(int id,Product product,IFormFile Image,bool cbResimSil=false)
         {
             if (id != product.ID)
             {
@@ -109,6 +109,10 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             {
                 try
                 {
+                    if(cbResimSil)
+                        product.Image = string.Empty;  
+                    if (Image is not null)
+                        product.Image = await File_Helper.FileLoaderASYNC(Image,"/image_client/Products/");
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }

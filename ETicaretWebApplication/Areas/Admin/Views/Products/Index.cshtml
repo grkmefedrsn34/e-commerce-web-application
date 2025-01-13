@@ -3,7 +3,9 @@
 @{
     ViewData["Title"] = "Ürünler";
 }
-
+<style>
+    td.fixed-height{max-width:180px;height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+</style>
 <p>
     <a asp-action="Create">Yeni Ürünler</a>
 </p>
@@ -52,14 +54,15 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+                <td class="fixed-height">
+                    >
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                    <img src="/image_client/Products/@item.Image" alt="" height="50" />
+                <img src="/image_client/Products/@item.Image" alt="" height="50" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
@@ -79,7 +82,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.IsHome)
             </td>
-            <td>
+             <td class="fixed-height">
                 @Html.DisplayFor(modelItem => item.Category.Name)
             </td>
             <td>
