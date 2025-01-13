@@ -28,6 +28,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\image_client\Marka\" />
     <Folder Include="wwwroot\image_client\Kategori\" />
+    <Folder Include="wwwroot\image_client\Duyurular\" />
     <Folder Include="wwwroot\image_client\Products\" />
     <Folder Include="wwwroot\image_client\Slider\" />
   </ItemGroup>

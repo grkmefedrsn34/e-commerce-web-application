@@ -1,13 +1,10 @@
-﻿@model IEnumerable<ETicaret_Core.Entities.AppUser>
+﻿@model IEnumerable<Contact>
 
 @{
-    ViewData["Title"] = "Kullanıcı Yönetimi";
+    ViewData["Title"] = "İletişim Formları";
 }
 
-<p>
-    <a asp-action="Create" class="btn btn-outline-primary" style="margin-left:20px;">Kullanıcı Ekle</a>
-</p>
-<table class ="table table-hover table-striped">
+<table class="table table-hover table-striped">
     <thead>
         <tr>
             <th>
@@ -20,16 +17,13 @@
                 @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Password)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Phone)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsActive)
+                @Html.DisplayNameFor(model => model.Message)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsAdmin)
+                @Html.DisplayNameFor(model => model.IsRead)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CreatedDate)
@@ -50,24 +44,21 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Password)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Phone)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
+                @Html.DisplayFor(modelItem => item.Message)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsAdmin)
+                @Html.DisplayFor(modelItem => item.IsRead)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CreatedDate)
+                @item.CreatedDate.ToShortDateString()
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-warning" style="color:white">Düznele</a> |
-                <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info" style="color:white">Listele</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-sm btn-danger">Sil</a>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
 }

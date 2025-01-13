@@ -1,29 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
 using ETicaret_Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ETicaretWebApplication.Ultis;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class BrandsController : Controller
+    public class CategoriesController : Controller
     {
         private readonly ETicaret_Context _context;
 
-        public BrandsController(ETicaret_Context context)
+        public CategoriesController(ETicaret_Context context)
         {
             _context = context;
         }
 
-        // GET: Admin/Brands
+        // GET: Admin/Categories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Brands.ToListAsync());
+            return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Admin/Brands/Details/5
+        // GET: Admin/Categories/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -31,40 +31,42 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands
+            var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (brand == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(brand);
+            return View(category);
         }
 
-        // GET: Admin/Brands/Create
-        public IActionResult Create()
+        // GET: Admin/Categories/Create
+        public async Task<IActionResult> CreateAsync()
         {
+            ViewBag.Kategoriler = new SelectList(await _context.Categories.ToListAsync());    
             return View();
         }
 
-        // POST: Admin/Brands/Create
+        // POST: Admin/Categories/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Brand brand , IFormFile? Logo)
+        public async Task<IActionResult> Create(Category category, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
-                brand.Logo = await File_Helper.FileLoaderASYNC(Logo);
-                _context.Add(brand);
+                category.Image = await File_Helper.FileLoaderASYNC(Image, "/image_client/Kategori/");
+                await _context.AddAsync(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(brand);
+            ViewBag.Kategoriler = new SelectList(await _context.Categories.ToListAsync());
+            return View(category);
         }
 
-        // GET: Admin/Brands/Edit/5
+        // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,22 +74,23 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands.FindAsync(id);
-            if (brand == null)
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
             {
                 return NotFound();
             }
-            return View(brand);
+            ViewBag.Kategoriler = new SelectList(await _context.Categories.ToListAsync());
+            return View(category);
         }
 
-        // POST: Admin/Brands/Edit/5
+        // POST: Admin/Categories/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Brand brand,IFormFile? Logo,bool cbResimSil = false)
+        public async Task<IActionResult> Edit(int id,Category category, IFormFile? Image,bool cbResimSil =false)
         {
-            if (id != brand.ID)
+            if (id != category.ID)
             {
                 return NotFound();
             }
@@ -97,17 +100,15 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 try
                 {
                     if(cbResimSil)
-                    {
-                        brand.Logo = string.Empty; 
-                    }
-                    if(Logo is not null) 
-                        brand.Logo = await File_Helper.FileLoaderASYNC(Logo);
-                    _context.Update(brand);
+                        category.Image = string.Empty;
+                    if(Image is not null)
+                        category.Image = await File_Helper.FileLoaderASYNC(Image, "/image_client/Kategori/");
+                    _context.Update(category);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BrandExists(brand.ID))
+                    if (!CategoryExists(category.ID))
                     {
                         return NotFound();
                     }
@@ -118,10 +119,10 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(brand);
+            return View(category);
         }
 
-        // GET: Admin/Brands/Delete/5
+        // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -129,38 +130,38 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands
+            var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (brand == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(brand);
+            return View(category);
         }
 
-        // POST: Admin/Brands/Delete/5
+        // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id,IFormFile Logo)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var brand = await _context.Brands.FindAsync(id);
-            if (brand != null)
+            var category = await _context.Categories.FindAsync(id);
+            if (category != null)
             {
-                if (!string.IsNullOrEmpty(brand.Logo))
+                if(!string.IsNullOrEmpty(category.Image))
                 {
-                    File_Helper.FileRemove(brand.Logo);
+                    File_Helper.FileRemove(category.Image , "/image_client/Kategori"); 
                 }
-                _context.Brands.Remove(brand);
+                _context.Categories.Remove(category);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BrandExists(int id)
+        private bool CategoryExists(int id)
         {
-            return _context.Brands.Any(e => e.ID == id);
+            return _context.Categories.Any(e => e.ID == id);
         }
     }
 }
