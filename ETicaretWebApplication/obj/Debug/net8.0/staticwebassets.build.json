@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bOg1ozT8GTXRoxu8tSCNamOBNvSEO/1nvVZ1Bgikb9M=",
+  "Hash": "Ty/sU0R20SWFuHHrOvxYnAK07uMkPhAUdpVsvYMOdMU=",
   "Source": "ETicaretWebApplication",
   "BasePath": "_content/ETicaretWebApplication",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\image_client\\Slider\\ımage",
+      "SourceId": "ETicaretWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\",
+      "BasePath": "_content/ETicaretWebApplication",
+      "RelativePath": "image_client/Slider/ımage",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image_client\\Slider\\ımage"
     },
     {
       "Identity": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\js\\site.js",

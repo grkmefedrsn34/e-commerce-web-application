@@ -1,3 +1,4 @@
+using ETicaret_Data;
 using ETicaretWebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -6,16 +7,16 @@ namespace ETicaretWebApplication.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ETicaret_Context _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ETicaret_Context context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Sliders);
         }
 
         public IActionResult Privacy()
