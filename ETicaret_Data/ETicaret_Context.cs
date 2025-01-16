@@ -15,13 +15,20 @@ namespace ETicaret_Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Slider> Sliders { get; set; }
 
+        public ETicaret_Context(DbContextOptions<ETicaret_Context> options)
+            : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-1PSJFDO\GRKMEFEDRSN34;Initial Catalog=MCV_ETİCARET_CORE_DB;Integrated Security=True;TrustServerCertificate=True;");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-1PSJFDO\GRKMEFEDRSN34;Initial Catalog=MCV_ETİCARET_CORE_DB;Integrated Security=True;TrustServerCertificate=True;");
+                optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore
+                    (RelationalEventId.PendingModelChangesWarning));
+            }
             base.OnConfiguring(optionsBuilder);
-
-            optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore
-                (RelationalEventId.PendingModelChangesWarning));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -1,11 +1,16 @@
 using ETicaret_Data;
 using ETicaret_Core;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// ETicaret_Context'i Dependency Injection'a doðru þekilde ekliyoruz.
+builder.Services.AddDbContext<ETicaret_Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")+ ";TrustServerCertificate=True;"));
+
+// Controller'lar ve View'lar için gerekli servisleri ekliyoruz.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ETicaret_Context>();
 
 var app = builder.Build();
 
@@ -13,24 +18,24 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseHsts(); // HSTS (HTTP Strict Transport Security) etkinleþtirildi.
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseStaticFiles(); // Statik dosyalar (CSS, JS, img) için.
 
-app.UseRouting();
+app.UseRouting(); // Rota yapýlandýrmasý.
 
-app.UseAuthorization();
+app.UseAuthorization(); // Yetkilendirme mekanizmasý.
 
 app.MapControllerRoute(
-     name: "Admin",
-     pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}"
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}"
 );
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();

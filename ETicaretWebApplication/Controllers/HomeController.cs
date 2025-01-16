@@ -1,6 +1,7 @@
 using ETicaret_Data;
 using ETicaretWebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace ETicaretWebApplication.Controllers
@@ -14,15 +15,17 @@ namespace ETicaretWebApplication.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(_context.Sliders);
+            var sliders = await _context.Sliders.ToListAsync(); // Asenkron iþlemi bekliyoruz
+            return View(sliders); // Doðru model döndürülüyor
         }
 
         public IActionResult Privacy()
         {
             return View();
         }
+
         public IActionResult ContactUs()
         {
             return View();
