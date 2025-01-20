@@ -17,8 +17,7 @@ namespace ETicaretWebApplication.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var sliders = await _context.Sliders.ToListAsync(); // Asenkron iþlemi bekliyoruz
-            return View(sliders); // Doðru model döndürülüyor
+            return View(await _context.Sliders.ToListAsync());
         }
 
         public IActionResult Privacy()

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\areas\\admin\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:areas\\admin\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:views\\shared\\components\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\views\\shared\\component\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:views\\shared\\component\\categories\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|c:\\users\\dersi\\onedrive\\belgeler\\github\\e-commerce-web-application\\eticaretwebapplication\\viewcomponenets\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31780D60-7A33-4C65-BD9D-229FE32E602B}|ETicaretWebApplication.csproj|solutionrelative:viewcomponenets\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T12:46:37.638Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Slider.cshtml",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\_Slider.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Slider.cshtml",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\_Slider.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Slider.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T12:39:02.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Categories\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T11:53:10.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BrandsController.cs",
-              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BrandsController.cs",
-              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\BrandsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAawDoAAAA/AAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T12:13:38.497Z",
+              "WhenOpened": "2025-01-20T11:43:55.801Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
@@ -64,32 +95,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-16T12:13:04.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\ViewComponenets\\Categories.cs",
-              "RelativeDocumentMoniker": "ViewComponenets\\Categories.cs",
-              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\ViewComponenets\\Categories.cs",
-              "RelativeToolTip": "ViewComponenets\\Categories.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T12:09:51.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\Component\\Categories\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Component\\Categories\\Default.cshtml",
-              "ToolTip": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\Views\\Shared\\Component\\Categories\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Component\\Categories\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-16T12:07:22.463Z",
               "EditorCaption": ""
             }
           ]
