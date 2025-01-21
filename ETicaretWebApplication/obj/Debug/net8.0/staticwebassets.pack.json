@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ETicaretWebApplication.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ETicaretWebApplication.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ETicaretWebApplication.dm5xr6s3z7.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\admin\\401.html",
@@ -91,6 +91,10 @@
     {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\image_client\\Slider\\ımage",
       "PackagePath": "staticwebassets\\image_client\\Slider"
+    },
+    {
+      "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\image_client\\logo",
+      "PackagePath": "staticwebassets\\image_client"
     },
     {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\js\\site.js",
@@ -323,6 +327,10 @@
     {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ETicaretWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ETicaretWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",

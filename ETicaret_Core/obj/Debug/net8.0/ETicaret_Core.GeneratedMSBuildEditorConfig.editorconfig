@@ -19,3 +19,5 @@ build_property.RootNamespace = ETicaret_Core
 build_property.ProjectDir = C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaret_Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
