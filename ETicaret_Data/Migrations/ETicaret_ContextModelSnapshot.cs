@@ -77,14 +77,14 @@ namespace ETicaret_Data.Migrations
                         new
                         {
                             ID = 1,
-                            CreatedDate = new DateTime(2025, 1, 5, 12, 42, 44, 963, DateTimeKind.Local).AddTicks(6344),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 39, 5, 75, DateTimeKind.Local).AddTicks(7933),
                             Email = "it@colpar.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Test",
                             Password = "123456789*",
                             Surname = "TestUser",
-                            UserGuid = new Guid("ebdf0fba-9333-4e9b-adf3-20015e95ee28"),
+                            UserGuid = new Guid("7442ef81-a429-4540-ab28-e99295152938"),
                             UserName = "Admin"
                         });
                 });
@@ -166,7 +166,7 @@ namespace ETicaret_Data.Migrations
                         new
                         {
                             ID = 1,
-                            CreatedDate = new DateTime(2025, 1, 5, 12, 42, 44, 969, DateTimeKind.Local).AddTicks(3768),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 39, 5, 84, DateTimeKind.Local).AddTicks(4226),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Elektronik",
@@ -176,7 +176,7 @@ namespace ETicaret_Data.Migrations
                         new
                         {
                             ID = 1907,
-                            CreatedDate = new DateTime(2025, 1, 5, 12, 42, 44, 969, DateTimeKind.Local).AddTicks(5441),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 39, 5, 84, DateTimeKind.Local).AddTicks(7861),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Bilgisayar",
@@ -240,8 +240,7 @@ namespace ETicaret_Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(680)
-                        .HasColumnType("nvarchar(680)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .HasMaxLength(180)

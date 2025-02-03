@@ -14,7 +14,7 @@ namespace ETicaret_Data.Config
         public void Configure(EntityTypeBuilder<News> builder)
         {
             builder.Property(x => x.Title).IsRequired().HasMaxLength(280);
-            builder.Property(x => x.Description).HasMaxLength(680);
+            builder.Property(x => x.Description);
             builder.Property(x => x.Image).HasMaxLength(180);
         }
     }

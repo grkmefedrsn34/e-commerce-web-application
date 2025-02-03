@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8m1mE9kRTG8VAuPJ/8evyXxFzaJR15107f5DCie9LWY=",
+  "Hash": "vJtpsU0wavh12T+uxcYRln+jnZ6GRjL6YouQVC9RJYs=",
   "Source": "ETicaretWebApplication",
   "BasePath": "_content/ETicaretWebApplication",
   "Mode": "Default",
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fosamezn9b",
-      "Integrity": "r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=",
+      "Fingerprint": "tx4zughqlb",
+      "Integrity": "P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1758,6 +1758,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\600x200.jpeg",
+      "SourceId": "ETicaretWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\",
+      "BasePath": "_content/ETicaretWebApplication",
+      "RelativePath": "Products/600x200#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92nhqsrh3z",
+      "Integrity": "/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\600x200.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg",
+      "SourceId": "ETicaretWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\",
+      "BasePath": "_content/ETicaretWebApplication",
+      "RelativePath": "Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uue9xdb3hb",
+      "Integrity": "iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg"
     }
   ],
   "Endpoints": [
@@ -3330,7 +3372,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "341"
+          "Value": "310"
         },
         {
           "Name": "Content-Type",
@@ -3338,11 +3380,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=\""
+          "Value": "\"P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 11:41:03 GMT"
+          "Value": "Thu, 30 Jan 2025 09:09:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3352,12 +3394,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0="
+          "Value": "sha256-P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw="
         }
       ]
     },
     {
-      "Route": "css/site.fosamezn9b.css",
+      "Route": "css/site.tx4zughqlb.css",
       "AssetFile": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3367,7 +3409,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "341"
+          "Value": "310"
         },
         {
           "Name": "Content-Type",
@@ -3375,11 +3417,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=\""
+          "Value": "\"P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 11:41:03 GMT"
+          "Value": "Thu, 30 Jan 2025 09:09:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3389,7 +3431,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fosamezn9b"
+          "Value": "tx4zughqlb"
         },
         {
           "Name": "label",
@@ -3397,7 +3439,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0="
+          "Value": "sha256-P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw="
         }
       ]
     },
@@ -8564,6 +8606,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA="
+        }
+      ]
+    },
+    {
+      "Route": "Products/600x200.92nhqsrh3z.jpeg",
+      "AssetFile": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\600x200.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 15:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92nhqsrh3z"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/600x200.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E="
+        }
+      ]
+    },
+    {
+      "Route": "Products/600x200.jpeg",
+      "AssetFile": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\600x200.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 15:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E="
+        }
+      ]
+    },
+    {
+      "Route": "Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg",
+      "AssetFile": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 08:49:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4="
+        }
+      ]
+    },
+    {
+      "Route": "Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.uue9xdb3hb.jpg",
+      "AssetFile": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 08:49:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uue9xdb3hb"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4="
         }
       ]
     }

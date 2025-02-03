@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
@@ -39,13 +35,26 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             var product = await _context.Products
                 .Include(p => p.Brand)
                 .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.ID == id); // Tek bir ürün alınır
+
             if (product == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            // İsterseniz ViewModel kullanabilirsiniz
+            var model = new ProductDetailsViewModel
+            {
+                ID = product.ID,
+                Name = product.Name,
+                BrandName = product.Brand?.Name,
+                CategoryName = product.Category?.Name,
+                Description = product.Description,
+                Price = product.Price,
+                Image = product.Image
+            };
+
+            return View(model); // View'e model gönderilir
         }
 
         // GET: Admin/Products/Create
@@ -57,16 +66,14 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         }
 
         // POST: Admin/Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
-                product.Image = await File_Helper.FileLoaderASYNC(Image, "/image_client/Products/");
-                 _context.Add(product);
+                product.Image = await File_Helper.FileLoaderASYNC(Image, "wwwroot/Products/");
+                _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -94,11 +101,9 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         }
 
         // POST: Admin/Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Product product,IFormFile Image,bool cbResimSil=false)
+        public async Task<IActionResult> Edit(int id, Product product, IFormFile Image, bool cbResimSil = false)
         {
             if (id != product.ID)
             {
@@ -109,10 +114,10 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
             {
                 try
                 {
-                    if(cbResimSil)
-                        product.Image = string.Empty;  
+                    if (cbResimSil)
+                        product.Image = string.Empty;
                     if (Image is not null)
-                        product.Image = await File_Helper.FileLoaderASYNC(Image,"/image_client/Products/");
+                        product.Image = await File_Helper.FileLoaderASYNC(Image, "/Products/");
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -173,5 +178,17 @@ namespace ETicaretWebApplication.Areas.Admin.Controllers
         {
             return _context.Products.Any(e => e.ID == id);
         }
+    }
+
+    // Örnek ViewModel
+    public class ProductDetailsViewModel
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string BrandName { get; set; }
+        public string CategoryName { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+        public string Image { get; set; }
     }
 }

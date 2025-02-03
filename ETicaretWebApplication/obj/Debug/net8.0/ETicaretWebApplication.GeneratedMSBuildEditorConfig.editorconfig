@@ -88,6 +88,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Areas/Admin/Views/Contacts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -188,6 +196,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Account/SingIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaW5nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Account/SingUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaW5nVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -198,6 +222,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Products/Details.cshtml]
@@ -222,6 +254,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/_NewsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OZXdzVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dersi/OneDrive/Belgeler/GitHub/e-commerce-web-application/ETicaretWebApplication/Views/Shared/_ProductsView.cshtml]

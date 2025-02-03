@@ -79,3 +79,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Products\600x200.jpeg
+wwwroot\Products\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg

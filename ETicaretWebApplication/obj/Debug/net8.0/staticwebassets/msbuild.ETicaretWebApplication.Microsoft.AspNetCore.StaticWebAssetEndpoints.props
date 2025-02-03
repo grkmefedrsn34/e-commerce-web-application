@@ -231,14 +231,14 @@
     <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"341"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Jan 2025 11:41:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"310"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 09:09:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/css/site.fosamezn9b.css">
+    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/css/site.tx4zughqlb.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fosamezn9b"},{"Name":"integrity","Value":"sha256-r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0="},{"Name":"label","Value":"_content/ETicaretWebApplication/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"341"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei\u002BSfmQ0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Jan 2025 11:41:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tx4zughqlb"},{"Name":"integrity","Value":"sha256-P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw="},{"Name":"label","Value":"_content/ETicaretWebApplication/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"310"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 09:09:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/ETicaretWebApplication.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ETicaretWebApplication.dm5xr6s3z7.bundle.scp.css'))</AssetFile>
@@ -983,6 +983,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kR0ThRjy07\u002Bhq4p08nfdkjN\u002BpI94Gj2rK5lyE0buITU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1097"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022kR0ThRjy07\u002Bhq4p08nfdkjN\u002BpI94Gj2rK5lyE0buITU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 14 Jan 2025 11:41:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/Products/600x200.92nhqsrh3z.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\600x200.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"92nhqsrh3z"},{"Name":"integrity","Value":"sha256-/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E="},{"Name":"label","Value":"_content/ETicaretWebApplication/Products/600x200.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"31769"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 15:01:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/Products/600x200.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\600x200.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"31769"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 15:01:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"45731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 08:49:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ETicaretWebApplication/Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.uue9xdb3hb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uue9xdb3hb"},{"Name":"integrity","Value":"sha256-iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4="},{"Name":"label","Value":"_content/ETicaretWebApplication/Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"45731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 08:49:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

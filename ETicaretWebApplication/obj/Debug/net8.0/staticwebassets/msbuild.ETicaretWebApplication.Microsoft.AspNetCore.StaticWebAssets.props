@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fosamezn9b</Fingerprint>
-      <Integrity>r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei+SfmQ0=</Integrity>
+      <Fingerprint>tx4zughqlb</Fingerprint>
+      <Integrity>P04YS9rRXQ3VGm1AiMmUcsu8RsPVTB8fzQgOX4KPriw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1475,6 +1475,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\600x200.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ETicaretWebApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ETicaretWebApplication</BasePath>
+      <RelativePath>Products/600x200.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>92nhqsrh3z</Fingerprint>
+      <Integrity>/zY367pOP5bmTSCsvDk2hjH7NFW1spEZqjcqOjU/82E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\600x200.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ETicaretWebApplication</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ETicaretWebApplication</BasePath>
+      <RelativePath>Products/hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uue9xdb3hb</Fingerprint>
+      <Integrity>iscDrljUYU74M0xfcXMcT5plrNPqqG5wcgxhkhm4SI4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Products\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

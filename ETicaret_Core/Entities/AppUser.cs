@@ -15,7 +15,7 @@ namespace ETicaret_Core.Entities
         [Display(Name = "Soyadı")]
         public string Surname { get; set; }
         public string Email { get; set; }
-        [Display(Name = "Parola")]
+        [Display(Name = "Email")]
         public string Password { get; set; }
         public string? UserName { get; set; }
         [Display(Name = "Telefon Numarası")]

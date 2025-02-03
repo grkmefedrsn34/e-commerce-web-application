@@ -1,5 +1,7 @@
+using ETicaret_Core.Entities;
 using ETicaret_Data;
 using ETicaretWebApplication.Models;
+using ETicaretWebApplication.Ultis;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -35,6 +37,32 @@ namespace ETicaretWebApplication.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> ContactUs(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await _context.Contacts.AddAsync(contact);
+                    if (await _context.SaveChangesAsync() > 0)
+                    {
+                        TempData["Message"] = @"<div class=""alert alert-success alert-dismissible fade show"" role=""alert"">
+   <strong>Mesajýnýz Gönderilmiþtir!</strong>
+   <button type=""button"" class=""btn-close"" data-bs-dismiss=""alert"" aria-label=""Close""></button>
+</div>";
+                        await MailHelper.SendMailAsync(contact);
+                        return RedirectToAction("ContactUs");
+                    }
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "Hata Oluþtu!");
+                }
+            }
+            return View(contact);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

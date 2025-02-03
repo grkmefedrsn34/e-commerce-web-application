@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ETicaretWebApplication.dm5xr6s3z7.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\600x200.jpeg",
+      "PackagePath": "staticwebassets\\Products\\600x200.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg",
+      "PackagePath": "staticwebassets\\Products\\hp-victus-laptop-16-s0065nt-amd-ryzen-7-7840hs-32gb-ram-1tb-ssd-8gb-geforce-rtx-4070-161-inc-fhd-freedos-mavi-8w8a7ea-15613-18-o.jpg"
+    },
+    {
       "Id": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\wwwroot\\admin\\401.html",
       "PackagePath": "staticwebassets\\admin\\401.html"
     },
