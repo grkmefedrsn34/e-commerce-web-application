@@ -6,6 +6,17 @@ using DotNetOpenAuth.InfoCard;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews();
+builder.Services.AddSession( O =>
+{
+    O.Cookie.Name = "Eticaret.Session";
+    O.Cookie.HttpOnly = true;
+    O.Cookie.IsEssential = true;
+    O.IdleTimeout = TimeSpan.FromDays(1);
+    O.IOTimeout = TimeSpan.FromMinutes(1);
+}
+);
+
 // Add services to the container.
 // ETicaret_Context'i Dependency Injection'a doðru þekilde ekliyoruz.
 builder.Services.AddDbContext<ETicaret_Context>(options =>
@@ -41,6 +52,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles(); // Statik dosyalar (CSS, JS, img) için.
 
 app.UseRouting(); // Rota yapýlandýrmasý.
+app.UseSession();
 
 app.UseAuthorization();// önce oturum açma
 
