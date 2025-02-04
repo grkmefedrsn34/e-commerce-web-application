@@ -28,7 +28,8 @@ namespace ETicaretWebApplication.Controllers
             return View(model);
         }
 
-        public IActionResult Privacy()
+        [Route("AccessDenied")]
+        public IActionResult AccessDenied()
         {
             return View();
         }

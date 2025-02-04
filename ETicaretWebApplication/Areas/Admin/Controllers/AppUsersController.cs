@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
 using ETicaret_Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
     public class AppUsersController : Controller
     {
         private readonly ETicaret_Context _context;

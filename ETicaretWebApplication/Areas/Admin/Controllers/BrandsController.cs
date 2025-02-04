@@ -4,10 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using ETicaret_Core.Entities;
 using ETicaret_Data;
 using ETicaretWebApplication.Ultis;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
     public class BrandsController : Controller
     {
         private readonly ETicaret_Context _context;

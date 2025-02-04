@@ -4,10 +4,12 @@ using ETicaret_Core.Entities;
 using ETicaret_Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ETicaretWebApplication.Ultis;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
     public class CategoriesController : Controller
     {
         private readonly ETicaret_Context _context;

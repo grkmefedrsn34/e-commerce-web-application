@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using ETicaret_Data;
 using ETicaret_Core.Entities;
 using ETicaretWebApplication.Ultis;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
     public class SliderController : Controller
     {
         private readonly ETicaret_Context _context;

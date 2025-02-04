@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ey9ayIU4Gg=",
+  "dgSpecHash": "huvLl38D7S4=",
   "success": true,
   "projectFilePath": "C:\\Users\\dersi\\OneDrive\\Belgeler\\GitHub\\e-commerce-web-application\\ETicaretWebApplication\\ETicaretWebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dersi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\dersi\\.nuget\\packages\\dotnetopenauth.core\\4.3.4.13329\\dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+    "C:\\Users\\dersi\\.nuget\\packages\\dotnetopenauth.core.ui\\4.3.4.13329\\dotnetopenauth.core.ui.4.3.4.13329.nupkg.sha512",
+    "C:\\Users\\dersi\\.nuget\\packages\\dotnetopenauth.infocard\\4.3.4.13329\\dotnetopenauth.infocard.4.3.4.13329.nupkg.sha512",
+    "C:\\Users\\dersi\\.nuget\\packages\\dotnetopenauth.infocard.ui\\4.3.4.13329\\dotnetopenauth.infocard.ui.4.3.4.13329.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -103,6 +107,7 @@
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\dersi\\.nuget\\packages\\microsoft.net.http\\2.0.20505\\microsoft.net.http.2.0.20505.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.net.stringtools\\17.8.3\\microsoft.net.stringtools.17.8.3.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -165,5 +170,66 @@
     "C:\\Users\\dersi\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\dersi\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329, Microsoft.Net.Http bağımlılığı için kapsayıcı bir alt sınır sağlamıyor. Bunun yerine Microsoft.Net.Http 2.0.20505 çözümlendi.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.Core 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.Core.UI 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.Core.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.InfoCard 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.InfoCard",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.InfoCard.UI 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.InfoCard.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Net.Http 2.0.20505' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

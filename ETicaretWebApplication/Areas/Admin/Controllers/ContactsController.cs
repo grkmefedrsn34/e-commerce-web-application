@@ -1,11 +1,13 @@
 ﻿using ETicaret_Core.Entities;
 using ETicaret_Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ETicaretWebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
     public class ContactsController : Controller
     {
 

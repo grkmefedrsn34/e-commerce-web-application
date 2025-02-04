@@ -1,6 +1,8 @@
 using ETicaret_Data;
 using ETicaret_Core;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using DotNetOpenAuth.InfoCard;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,20 @@ builder.Services.AddDbContext<ETicaret_Context>(options =>
 
 // Controller'lar ve View'lar için gerekli servisleri ekliyoruz.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x=>
+    { x.LoginPath = "/Account/SingIn";
+      x.AccessDeniedPath = "/AccessDenied";
+        x.Cookie.Name = "Account";
+        x.Cookie.MaxAge = TimeSpan.FromDays(7);
+        x.Cookie.IsEssential = true;
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminPolicy", policy => policy.RequireClaim("Role", "Admin"));
+    options.AddPolicy("UserPolicy", policy => policy.RequireClaim("Role", "Admin", "User", "Customer"));
+});
+
 
 var app = builder.Build();
 
@@ -25,6 +41,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles(); // Statik dosyalar (CSS, JS, img) için.
 
 app.UseRouting(); // Rota yapýlandýrmasý.
+
+app.UseAuthorization();// önce oturum açma
 
 app.UseAuthorization(); // Yetkilendirme mekanizmasý.
 

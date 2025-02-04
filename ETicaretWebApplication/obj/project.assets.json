@@ -47,6 +47,71 @@
           }
         }
       },
+      "DotNetOpenAuth.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http": "(, )"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.Core.UI/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.InfoCard/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.InfoCard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.InfoCard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.InfoCard.UI/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core.UI": "[4.3.4.13329]",
+          "DotNetOpenAuth.InfoCard": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.InfoCard.UI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.InfoCard.UI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -1788,6 +1853,25 @@
           }
         }
       },
+      "Microsoft.Net.Http/2.0.20505": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        }
+      },
       "Microsoft.NET.StringTools/17.8.3": {
         "type": "package",
         "compile": {
@@ -2889,6 +2973,75 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "DotNetOpenAuth.Core/4.3.4.13329": {
+      "sha512": "sgTuUWHv5tn1weh8jLqXytGQKWpebhk+D4e/RTNNH21eqCEs/ch+x7YxQxzp2u70DO1Hvcjb6dTDj2rO3grgxA==",
+      "type": "package",
+      "path": "dotnetopenauth.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.Core.dll",
+        "lib/net35-full/DotNetOpenAuth.Core.xml",
+        "lib/net40-full/DotNetOpenAuth.Core.dll",
+        "lib/net40-full/DotNetOpenAuth.Core.xml",
+        "lib/net45-full/DotNetOpenAuth.Core.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.xml"
+      ]
+    },
+    "DotNetOpenAuth.Core.UI/4.3.4.13329": {
+      "sha512": "xd7tQ1TDolBUedrNaCZkvaQ7zeBmo7pzuWvrANGsAAzv+KOyUYAA4ATgp6H0MW+K682hjCrAEo0G/7wFRPBIWA==",
+      "type": "package",
+      "path": "dotnetopenauth.core.ui/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.core.ui.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.core.ui.nuspec",
+        "lib/net35-full/DotNetOpenAuth.Core.UI.dll",
+        "lib/net35-full/DotNetOpenAuth.Core.UI.xml",
+        "lib/net40-full/DotNetOpenAuth.Core.UI.dll",
+        "lib/net40-full/DotNetOpenAuth.Core.UI.xml",
+        "lib/net45-full/DotNetOpenAuth.Core.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.UI.xml"
+      ]
+    },
+    "DotNetOpenAuth.InfoCard/4.3.4.13329": {
+      "sha512": "aKPCMoX9rZWU+kYbdpWyaQZnXp9EU8Y4W81NfM+kV/Nlb+01b9QTJvT3K6XeAou7habnrNEXQg0iAjYS7AeDwg==",
+      "type": "package",
+      "path": "dotnetopenauth.infocard/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.infocard.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.infocard.nuspec",
+        "lib/net35-full/DotNetOpenAuth.InfoCard.dll",
+        "lib/net35-full/DotNetOpenAuth.InfoCard.xml",
+        "lib/net40-full/DotNetOpenAuth.InfoCard.dll",
+        "lib/net40-full/DotNetOpenAuth.InfoCard.xml",
+        "lib/net45-full/DotNetOpenAuth.InfoCard.dll",
+        "lib/net45-full/DotNetOpenAuth.InfoCard.xml"
+      ]
+    },
+    "DotNetOpenAuth.InfoCard.UI/4.3.4.13329": {
+      "sha512": "YS6cxh3Y3jIwc6srlcjFwgMY2mnErFLVaPaScq5/eCBt+7UcCyYlZxD4qOH+Am69TogSVZa1AV/jwn+qMq8lOw==",
+      "type": "package",
+      "path": "dotnetopenauth.infocard.ui/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetopenauth.infocard.ui.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.infocard.ui.nuspec",
+        "lib/net35-full/DotNetOpenAuth.InfoCard.UI.dll",
+        "lib/net35-full/DotNetOpenAuth.InfoCard.UI.xml",
+        "lib/net40-full/DotNetOpenAuth.InfoCard.UI.dll",
+        "lib/net40-full/DotNetOpenAuth.InfoCard.UI.xml",
+        "lib/net45-full/DotNetOpenAuth.InfoCard.UI.dll",
+        "lib/net45-full/DotNetOpenAuth.InfoCard.UI.xml"
       ]
     },
     "Humanizer/2.14.1": {
@@ -5697,6 +5850,21 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "Microsoft.Net.Http/2.0.20505": {
+      "sha512": "XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "type": "package",
+      "path": "microsoft.net.http/2.0.20505",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "microsoft.net.http.2.0.20505.nupkg.sha512",
+        "microsoft.net.http.nuspec"
+      ]
+    },
     "Microsoft.NET.StringTools/17.8.3": {
       "sha512": "y6DiuacjlIfXH3XVQG5htf+4oheinZAo7sHbITB3z7yCXQec48f9ZhGSXkr+xn1bfl73Yc3ZQEW2peJ5X68AvQ==",
       "type": "package",
@@ -7813,6 +7981,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DotNetOpenAuth.InfoCard.UI >= 4.3.4.13329",
       "ETicaret_Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
@@ -7874,6 +8043,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "DotNetOpenAuth.InfoCard.UI": {
+            "target": "Package",
+            "version": "[4.3.4.13329, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -7917,5 +8090,67 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329, Microsoft.Net.Http bağımlılığı için kapsayıcı bir alt sınır sağlamıyor. Bunun yerine Microsoft.Net.Http 2.0.20505 çözümlendi.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.Core 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.Core.UI 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.Core.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.InfoCard 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.InfoCard",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'DotNetOpenAuth.InfoCard.UI 4.3.4.13329' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "DotNetOpenAuth.InfoCard.UI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'Microsoft.Net.Http 2.0.20505' paketi, proje hedef çerçevesi 'net8.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
