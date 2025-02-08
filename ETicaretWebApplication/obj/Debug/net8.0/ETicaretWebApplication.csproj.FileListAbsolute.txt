@@ -235,7 +235,6 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebAp
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\NuGet.Common.dll
@@ -256,7 +255,6 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebAp
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.IO.Pipelines.dll
@@ -264,10 +262,8 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebAp
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\ar\Humanizer.resources.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -426,12 +422,8 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebAp
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\ETicaret_Core.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\ETicaret_Data.dll
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\ETicaret_Services.dll
@@ -468,3 +460,8 @@ C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebAp
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.ETicaretWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\DotNetOpenAuth.Core.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\DotNetOpenAuth.Core.UI.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\DotNetOpenAuth.InfoCard.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\DotNetOpenAuth.InfoCard.UI.dll
+C:\Users\dersi\OneDrive\Belgeler\GitHub\e-commerce-web-application\ETicaretWebApplication\bin\Debug\net8.0\System.Net.Http.WebRequest.dll
